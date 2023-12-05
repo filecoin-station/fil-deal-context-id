@@ -1,6 +1,7 @@
 {
   "name": "fil-deal-context-id",
   "version": "0.0.1",
+  "type": "module",
   "description": "Calculate IPNI ContextID for Filecoin StorageMarket deals",
   "main": "index.js",
   "scripts": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/filecoin-station/fil-deal-context-id/issues"
   },
-  "homepage": "https://github.com/filecoin-station/fil-deal-context-id#readme"
+  "homepage": "https://github.com/filecoin-station/fil-deal-context-id#readme",
+  "dependencies": {
+    "@ipld/dag-cbor": "^9.0.6",
+    "multiformats": "^12.1.3"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
 }
